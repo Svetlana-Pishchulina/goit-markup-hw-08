@@ -64,6 +64,78 @@
 
   
  
+
+
+
+
+
+
+
+
+
+// .button {
+//   @extend %button;
+//     // display: flex;
+//     // border: 1px solid transparent;
+//     // border-radius: 4px;
+//     // padding: 2px;
+//     // min-width: 200px;
+//     // height: 50px;
+//     // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+//     // color: $accent-color-2;
+//     // background-color: $accent-color;
+//     // align-items: center;
+//     // justify-content: center;
+//     // font-weight: 700;
+//     // font-size: 16px;
+//     // line-height: 1.87;
+//     // letter-spacing: 0.06em;  
+//   }
+  
+//   .hero-button {
+//     @extend %button;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+  
+//   .button-modal-submit {
+//     @extend %button;
+//     margin-left: auto;
+//     margin-right: auto;
+//     &:focus,
+//     &:hover{
+//       background: #2196F3;
+//     }
+//   }
+
+//   .filter-button {
+//     display: inline-block;
+//     height: 38px;
+//     border: 1px solid transparent;
+//     border-radius: 4px;
+//     padding: 6px 22px;
+
+//     color: $title-text-color;
+//     background-color: $background-color-2;
+//     text-align: center;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.62;
+//     letter-spacing: 0.03em;
+
+//     transition-property: color, background-color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+//   &:hover,
+//   &:focus {
+//     color: $accent-color-2;
+//     background-color: $accent-color;
+//     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//       0px 2px 2px rgba(0, 0, 0, 0.12);
+//   }
+// }
   
 
 
@@ -71,77 +143,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-  // .button {
-  //   display: inline-block;
-  //   border: 1px solid transparent;
-  //   border-radius: 4px;
-  //   color: var(--accent-color-2);
-  //   background-color: var(--accent-color);
-  //   text-align: center;
-  // }
-  
-  // .hero .button {
-  //   padding: 10px 32px;
-  //   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    
-  // }
-  
-  // .filter .button {
-  //   padding: 6px 22px;
-  //   color: var(--title-text-color);
-  //   background-color: var(--background-color-2);
-  
-  //   transition-property: color, background-color;
-  //   transition-duration: 250ms;
-  //   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  // }
-  // .filter .button:hover,
-  // .filter .button:focus {
-  //   color: var(--accent-color-2);
-  //   background-color: var(--accent-color);
-  //   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  //     0px 2px 2px rgba(0, 0, 0, 0.12);
-  // }
-
-  // .button-modal-submit {
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   min-width: 200px;
-  //   height: 50px;
-  //   border: 0;
-  //   padding: 2px;
-  //   background: var(--accent-color);
-  //   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  //   border-radius: 4px;
-
-
-  //   margin-left: auto;
-  //   margin-right: auto;
-  //   font-weight: 700;
-  //   font-size: 16px;
-  //   line-height: 1.87;
-  //   letter-spacing: 0.06em;
-  //   color: var(--accent-color-2);
-  // }
-  // .subscription button {
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   min-width: 200px;
-  //   height: 50px;
-  //   border: 0;
-  //   padding: 2px;
-  //   background: var(--accent-color);
-  //   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  //   border-radius: 4px;
-  // }

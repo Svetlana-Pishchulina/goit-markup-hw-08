@@ -1,15 +1,21 @@
 .logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 85px;
-  
-    color: $accent-color;
-    // font-family: 'Raleway', sans-serif;
-    font-family: $logo-font, sans-serif;
+  @media screen and (max-width: 1199px){
+    margin-right: 88px;
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1200px){
+    margin-right: 93px;
     font-size: 26px;
+  }
+    // padding-top: 24px;
+    // padding-bottom: 25px;
+    color: $accent-color;
+    font-family: $logo-font, sans-serif;
+    
     font-weight: 700;
     letter-spacing: 0.03em;
     line-height: 1.19;
+
   }
   .logo-accent {
     color: $logo-color;

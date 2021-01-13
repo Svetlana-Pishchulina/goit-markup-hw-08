@@ -1,50 +1,129 @@
 .hero {
+
+    padding-bottom: 118px;
+    padding-top: 118px;
+    text-align: center;
+    // @media screen and (max-width: 767px){
+    //   margin-top: 60px;
+    // }
+  @media screen and (min-width: 1200px){
     padding-bottom: 200px;
     padding-top: 200px;
-  
-    text-align: center;
-    // height: 600px;
-    // max-width: 1600px;
-    // margin-left: auto;
-    // margin-right: auto;
-  
-    // background-image: linear-gradient(
-    //     to right,
-    //     rgba(47, 48, 58, 0.4),
-    //     rgba(47, 48, 58, 0.4)
-    //   ),
-    //   url(../../images/hero-opt.jpg);
-    // background-color: $background-color;
+  } 
   }
   
 .overlay {
-    height: 600px;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-  
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: $background-color;
+
+  height: 400px;
+  max-width: 480px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-mobile-opt@1x.jpg);
+
+      @media (min-resolution:2dppx){
+        background-image:url(../images/hero-mobile-opt@2x.jpg);
+      }
+
+  @media screen and (min-width: 480px){
+    height: 400px;
+    max-width: 768px;
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/hero-opt.jpg);
-      // url(../../images/hero-opt.jpg);
-    background-color: $background-color;
+      url(../images/hero-tablet-opt@1x.jpg);
+
+      @media (min-resolution:2dppx){
+        background-image:url(../images/hero-tablet-opt@2x.jpg);
+      }
+  }
+  @media screen and (min-width: 768px){
+    height: 400px;
+    max-width: 1600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-desktop-opt@1x.jpg);
+      background-size: cover;
+      @media (min-resolution:2dppx){
+        background-image:url(../images/hero-desktop-opt@2x.jpg);
+      }
+    }
+      @media screen and (min-width: 1200px){
+        height: 600px;
+        max-width: 1600px; 
+       }
   }
   
 .hero-title {
-    margin: 0px;
-    margin-bottom: 30px;
-  
-    color: $accent-color-2;
+  margin: 0px;
+  margin-bottom: 30px;
+  color: $accent-color-2;
+  text-transform: uppercase;
+
+  // @media screen and (min-width: 480px){
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+  // }
+
+  @media screen and (min-width: 1200px){
     font-size: 44px;
     font-weight: 900;
     letter-spacing: 0.06em;
     line-height: 1.36;
-    text-transform: uppercase;
+  }
   }
   
+
+
+
+
+
+
+//   .hero {
+//     padding-bottom: 200px;
+//     padding-top: 200px;
+  
+//     text-align: center;
+//   }
+  
+// .overlay {
+//     height: 600px;
+//     max-width: 1600px;
+//     margin-left: auto;
+//     margin-right: auto;
+  
+//     background-image: linear-gradient(
+//         to right,
+//         rgba(47, 48, 58, 0.4),
+//         rgba(47, 48, 58, 0.4)
+//       ),
+//       url(../images/hero-opt.jpg);
+//     background-color: $background-color;
+//   }
+  
+// .hero-title {
+//     margin: 0px;
+//     margin-bottom: 30px;
+  
+//     color: $accent-color-2;
+//     font-size: 44px;
+//     font-weight: 900;
+//     letter-spacing: 0.06em;
+//     line-height: 1.36;
+//     text-transform: uppercase;
+//   }
   // .button {
   //   display: flex;
   //   border: 1px solid transparent;
