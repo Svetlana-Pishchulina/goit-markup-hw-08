@@ -5,12 +5,18 @@ header{
 .header.container {
     display: flex;
     align-items: center;
+
+    // justify-content: space-between;
+
     min-height: 60px;
+
     // @media screen and (max-width: 767px){
     //   position: fixed;
+     
     //   top: 0;
-    //   min-height: 60px;
+    //   left: calc((100% - 480px)/2); 
     // }
+
     @media screen and (min-width: 768px){
       min-height: 80px;
     }
@@ -59,7 +65,6 @@ header{
     background-color: #fff;
     padding: 60px;
     text-align: center;
-    font-size: 18px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
 
     display: none;
@@ -100,50 +105,50 @@ header{
   }
  }
 
- .nav-list-link.current {
+ .nav-list-item.current {
   @media screen and (max-width: 767px){
-    margin-bottom: 12px;
+    margin-bottom: 52px;
   }
  }
 
 .nav-list-link {
-  // display: inline-block;
-  // padding-top: 32px;
-  // padding-bottom: 32px;
-
-
   position: relative;
+  display: inline-block;
   
-    color: $title-text-color;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.14;
-  
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: $title-text-color;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus,
   &.current{
     color: $accent-color;
   }
+  @media screen and (min-width: 768px){
+    font-size: 14px;
 }
-.current::after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 4px;
-      background: $accent-color;
-      border-radius: 2px;
-    
-      position: absolute;
-      @media screen and (min-width: 768px){
-        bottom: -12px;
-      }
-      @media screen and (min-width: 768px){
-        bottom: -32px;
-      }
+}
+
+.nav-list-link.current::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: $accent-color;
+  border-radius: 2px;
+
+  @media screen and (max-width: 767px){
+    bottom: -12px;
+  }
+  @media screen and (min-width: 768px){
+    bottom: -32px;
+  }
     }
 
 .contacts-list{
@@ -170,34 +175,34 @@ header{
 }
 
 .contacts-list-link {
-  @media screen and (max-width: 767px){
-  justify-content: center;
+  display: flex;
+  color: $primary-text-color;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  align-items: center;
+  font-size: 18px;
+  
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
-  @media screen and (max-width: 1199px){
+  @media screen and (max-width: 767px){
+    justify-content: center;
+  }
+  @media screen and (min-width: 768px){
     font-size: 12px;
     }
   @media screen and (min-width: 1200px){
   padding-top: 32px;
   padding-bottom: 32px;
   justify-content: space-between;
-  }
-  display: flex;
-  color: $primary-text-color;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
- 
-  align-items: center;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-  color: $accent-color;
-}
+  }
 }
 
 .icon-envelope {
