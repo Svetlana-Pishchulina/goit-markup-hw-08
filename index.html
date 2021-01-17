@@ -115,15 +115,15 @@
                 <h2 class="services-title">Чем мы занимаемся</h2>
                 <ul class="services-list">
                     <li class="services-item">
-                        <img srcset="./images/img1.jpg 1x, ./images/img1.jpg 2x, " src="./images/img1.jpg" alt="десктопные приложения" width="370">
+                        <img srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x, " src="./images/img1.jpg" alt="десктопные приложения" width="370">
                         <h3 class="services-list-title">десктопные приложения</h3>
                     </li>
                     <li class="services-item">
-                        <img srcset="" src="./images/img2.jpg" alt="мобильные приложения" width="370">
+                        <img srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x" src="./images/img2.jpg" alt="мобильные приложения" width="370">
                         <h3 class="services-list-title">мобильные приложения</h3>
                     </li>
                     <li class="services-item">
-                        <img srcset="" src="./images/img3.jpg" alt="дизайнерские решения" width="370">
+                        <img srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x" src="./images/img3.jpg" alt="дизайнерские решения" width="370">
                         <h3 class="services-list-title">дизайнерские решения</h3>
                     </li>
                 </ul>
@@ -137,10 +137,30 @@
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-list-item">
-                        <img srcset="
-                        ./images/ighor-demianenko-tablet-opt@1x.jpg 1x,
-                        ./images/ighor-demianenko-tablet-opt@2x.jpg 2x" 
-                        src="./images/ighor-demianenko-tablet-opt@1x.jpg" alt="Фото сотрудника" >
+                        <picture>
+                           <source srcset="
+                           ./images/ighor-demianenko-desktop-opt@1x.jpg 1x,
+                           ./images/ighor-demianenko-desktop-opt@2x.jpg 2x"
+                           media="(min-width:1200px)"
+                           sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px"
+                           type="image/jpg" >
+                           
+                           <source srcset="
+                           ./images/ighor-demianenko-tablet-opt@1x.jpg 1x, 
+                           ./images/ighor-demianenko-tablet-opt@2x.jpg 2x"
+                           media="(min-width:768px)"
+                           sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px"
+                           type="image/jpg" >
+
+                           <source srcset="
+                           ./images/ighor-demianenko-mobile-opt@1x.jpg 1x,
+                           ./images/ighor-demianenko-mobile-opt@2x.jpg 2x"
+                           media="(max-width:767px)"
+                           sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" 
+                           type="image/jpg">
+
+                          <img src="./images/ighor-demianenko-mobile-opt@1x.jpg" alt="Фото сотрудника">
+                       </picture>
                         <div class="team-card">
                             <h3 class="team-card-title">игорь демьяненко</h3>
                             <p class="team-card-prof">product designer</p>
@@ -177,7 +197,30 @@
                         </div>
                     </li>
                     <li class="team-list-item">
-                        <img src="./images/olga-repina-tablet-opt@1x.jpg" alt="Фото сотрудника" width="270">
+                         <picture>
+                            <source srcset="
+                            ./images/olga-repina-desktop-opt@1x.jpg 1x,
+                            ./images/olga-repina-desktop-opt@2x.jpg 2x"
+                            media="(min-width:1200px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" 
+                            type="image/jpg">
+                            
+                            <source srcset="
+                            ./images/olga-repina-tablet-opt@1x.jpg 1x, 
+                            ./images/olga-repina-tablet-opt@2x.jpg 2x"
+                            media="(min-width:768px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" 
+                            type="image/jpg">
+ 
+                            <source srcset="
+                            ./images/olga-repina-mobile-opt@1x.jpg 1x,
+                            ./images/olga-repina-mobile-opt@2x.jpg 2x"
+                            media="(max-width:767px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" 
+                            type="image/jpg">
+ 
+                           <img src="./images/olga-repina-mobile-opt@1x.jpg" alt="Фото сотрудника">
+                        </picture>
                         <div class="team-card">
                             <h3 class="team-card-title">Ольга Репина</h3>
                             <p class="team-card-prof">frontend developer</p>
@@ -214,7 +257,30 @@
                         </div>
                     </li>
                     <li class="team-list-item">
-                        <img src="./images/nikolay-tarasov-tablet-opt@1x.jpg" alt="Фото сотрудника" width="270">
+                        <picture>
+                            <source srcset="
+                            ./images/nikolay-tarasov-desktop-opt@1x.jpg 1x,
+                            ./images/nikolay-tarasov-desktop-opt@2x.jpg 2x"
+                            media="(min-width:1200px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" 
+                            type="image/jpg">
+                            
+                            <source srcset="
+                            ./images/nikolay-tarasov-tablet-opt@1x.jpg 1x, 
+                            ./images/nikolay-tarasov-tablet-opt@2x.jpg 2x"
+                            media="(min-width:768px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px"
+                            type="image/jpg" >
+ 
+                            <source srcset="
+                            ./images/nikolay-tarasov-mobile-opt@1x.jpg 1x,
+                            ./images/nikolay-tarasov-mobile-opt@2x.jpg 2x"
+                            media="(max-width:767px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" 
+                            type="image/jpg">
+ 
+                           <img src="./images/nikolay-tarasov-mobile-opt@1x.jpg" alt="Фото сотрудника">
+                        </picture>
                         <div class="team-card">
                             <h3 class="team-card-title">Николай Тарасов</h3>
                             <p class="team-card-prof">marketing</p>
@@ -251,7 +317,30 @@
                         </div>
                     </li>
                     <li class="team-list-item">
-                        <img src="./images/mikhail-yermakov-tablet-opt@1x.jpg" alt="Фото сотрудника" width="270">
+                        <picture>
+                            <source srcset="
+                            ./images/mikhail-yermakov-desktop-opt@1x.jpg 1x,
+                            ./images/mikhail-yermakov-desktop-opt@2x.jpg 2x"
+                            media="(min-width:1200px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px"
+                            type="image/jpg" >
+                            
+                            <source srcset="
+                            ./images/mikhail-yermakov-tablet-opt@1x.jpg 1x, 
+                            ./images/mikhail-yermakov-tablet-opt@2x.jpg 2x"
+                            media="(min-width:768px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px"
+                            type="image/jpg" >
+ 
+                            <source srcset="
+                            ./images/mikhail-yermakov-mobile-opt@1x.jpg 1x,
+                            ./images/mikhail-yermakov-mobile-opt@2x.jpg 2x"
+                            media="(max-width:767px)"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" 
+                            type="image/jpg">
+ 
+                           <img src="./images/mikhail-yermakov-mobile-opt@1x.jpg" alt="Фото сотрудника">
+                        </picture>
                        <div class="team-card">
                             <h3 class="team-card-title">Михаил Ермаков</h3>
                             <p class="team-card-prof">UI designer</p>
@@ -455,5 +544,6 @@
         </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

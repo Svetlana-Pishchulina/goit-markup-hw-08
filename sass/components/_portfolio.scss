@@ -89,6 +89,7 @@
     }
     }
     @media screen and (min-width: 1200px){
+      // flex-basis: calc();
       width: 370px;
       &:not(:nth-child(3n)) {
           margin-right: 30px;
