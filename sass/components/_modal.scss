@@ -7,8 +7,7 @@
   
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
-
-    // overflow-y: scroll;
+    overflow-y: scroll;
   
     transition-property: opacity;
     transition-duration: 250ms;
@@ -167,7 +166,7 @@
     margin-right: auto;
     margin-bottom: 30px;
     width: 370px;
-    @media screen and (min-width: 1199px){
+    @media screen and (min-width: 1200px){
       width: 425px;
     }
    
@@ -208,7 +207,7 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         
   }
-  @media screen and (min-width: 1199px){
+  @media screen and (min-width: 1200px){
     font-size: 14px;
   }
   }
