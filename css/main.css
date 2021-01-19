@@ -448,7 +448,6 @@ header {
 @media screen and (max-width: 767px) {
   .header.container {
     position: fixed;
-    z-index: 10;
     width: 100%;
     top: 0;
     left: 0;
@@ -1241,8 +1240,9 @@ header {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  width: 100%;
-  max-height: 609px;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 100;
 }
 
 @media screen and (min-width: 480px) {
@@ -1415,7 +1415,7 @@ header {
 @media screen and (max-width: 420px) {
   .agreement-label {
     display: block;
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 
