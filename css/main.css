@@ -448,6 +448,7 @@ header {
 @media screen and (max-width: 767px) {
   .header.container {
     position: fixed;
+    z-index: 2;
     width: 100%;
     top: 0;
     left: 0;
