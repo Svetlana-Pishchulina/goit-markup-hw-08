@@ -1412,6 +1412,13 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (max-width: 420px) {
+  .agreement-label {
+    display: block;
+    font-size: 8px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .agreement-label {
     font-size: 14px;
@@ -1426,6 +1433,12 @@ header {
   color: #2196f3;
   text-decoration: underline;
   white-space: pre-wrap;
+}
+
+@media screen and (max-width: 420px) {
+  .agreement-label-circs {
+    display: block;
+  }
 }
 
 .footer {
