@@ -46,7 +46,8 @@ body {
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 /*
@@ -91,7 +92,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo,
+    monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -266,7 +268,9 @@ summary {
   display: list-item;
 }
 
-.button, .hero-button, .button-modal-submit {
+.button,
+.hero-button,
+.button-modal-submit {
   display: flex;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -284,7 +288,8 @@ summary {
   letter-spacing: 0.06em;
 }
 
-.team-social-link, .footer-social-link {
+.team-social-link,
+.footer-social-link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -293,17 +298,23 @@ summary {
   justify-content: center;
 }
 
-.team-social-link:hover, .footer-social-link:hover, .team-social-link:focus, .footer-social-link:focus {
+.team-social-link:hover,
+.footer-social-link:hover,
+.team-social-link:focus,
+.footer-social-link:focus {
   background-color: #2196f3;
 }
 
-.team-social-icon, .footer-social-icon {
+.team-social-icon,
+.footer-social-icon {
   display: block;
   width: 20px;
   height: 20px;
 }
 
-.team-title, .clients-title, .services-title {
+.team-title,
+.clients-title,
+.services-title {
   margin-bottom: 30px;
   color: #212121;
   font-size: 28px;
@@ -318,7 +329,9 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff");
+  src: local(''),
+    url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -327,7 +340,9 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff");
+  src: local(''),
+    url('../fonts/roboto-v20-latin_cyrillic-500.woff2') format('woff2'),
+    url('../fonts/roboto-v20-latin_cyrillic-500.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -336,7 +351,9 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff");
+  src: local(''),
+    url('../fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'),
+    url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -345,7 +362,9 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff");
+  src: local(''),
+    url('../fonts/roboto-v20-latin_cyrillic-900.woff2') format('woff2'),
+    url('../fonts/roboto-v20-latin_cyrillic-900.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -354,7 +373,9 @@ summary {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/raleway-v18-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v18-latin-regular.woff") format("woff");
+  src: local(''),
+    url('../fonts/raleway-v18-latin-regular.woff2') format('woff2'),
+    url('../fonts/raleway-v18-latin-regular.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -363,7 +384,8 @@ summary {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/raleway-v18-latin-700.woff2") format("woff2"), url("../fonts/raleway-v18-latin-700.woff") format("woff");
+  src: local(''), url('../fonts/raleway-v18-latin-700.woff2') format('woff2'),
+    url('../fonts/raleway-v18-latin-700.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -405,7 +427,7 @@ summary {
 body {
   margin: 0 auto;
   padding: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul,
@@ -492,14 +514,18 @@ header {
   display: none;
 }
 
-.icon-menu, .icon-mobile-close {
+.icon-menu,
+.icon-mobile-close {
   fill: #212121;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-menu:hover, .icon-menu:focus, .icon-mobile-close:hover, .icon-mobile-close:focus {
+.icon-menu:hover,
+.icon-menu:focus,
+.icon-mobile-close:hover,
+.icon-mobile-close:focus {
   fill: #2196f3;
 }
 
@@ -508,7 +534,8 @@ header {
     background-color: #fff;
     padding: 60px;
     text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+      0px 1px 3px rgba(0, 0, 0, 0.16);
     display: none;
     position: absolute;
     height: 400px;
@@ -572,7 +599,9 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-link:hover, .nav-list-link:focus, .nav-list-link.current {
+.nav-list-link:hover,
+.nav-list-link:focus,
+.nav-list-link.current {
   color: #2196f3;
 }
 
@@ -643,7 +672,8 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list-link:hover, .contacts-list-link:focus {
+.contacts-list-link:hover,
+.contacts-list-link:focus {
   color: #2196f3;
 }
 
@@ -685,7 +715,7 @@ header {
 .logo {
   font-size: 24px;
   color: #2196f3;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.19;
@@ -746,13 +776,25 @@ header {
   height: 400px;
   max-width: 480px;
   background-position: center;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mobile-opt@1x.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-mobile-opt@1x.jpg);
   background-size: cover;
 }
 
-@media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
   .overlay {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mobile-opt@2x.jpg);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-mobile-opt@2x.jpg);
   }
 }
 
@@ -760,13 +802,25 @@ header {
   .overlay {
     height: 400px;
     max-width: 768px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tablet-opt@1x.jpg);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-tablet-opt@1x.jpg);
   }
 }
 
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 480px) and (min-resolution: 192dpi),
+  screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tablet-opt@2x.jpg);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-tablet-opt@2x.jpg);
   }
 }
 
@@ -774,13 +828,25 @@ header {
   .overlay {
     height: 400px;
     max-width: 1600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-desktop-opt@1x.jpg);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-desktop-opt@1x.jpg);
   }
 }
 
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-desktop-opt@2x.jpg);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-desktop-opt@2x.jpg);
   }
 }
 
@@ -845,19 +911,19 @@ header {
 
 @media screen and (min-width: 768px) {
   .features-list-item {
-    width: calc( (100% - 30px) / 2);
+    width: calc((100% - 30px) / 2);
   }
-  .features-list-item:nth-child(2n+1) {
+  .features-list-item:nth-child(2n + 1) {
     margin-right: 30px;
   }
-  .features-list-item:nth-child(-n+2) {
+  .features-list-item:nth-child(-n + 2) {
     margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .features-list-item {
-    width: calc((100% - 3*30px)/4);
+    width: calc((100% - 3 * 30px) / 4);
   }
   .features-list-item:not(:last-child) {
     margin-right: 30px;
@@ -949,7 +1015,8 @@ header {
 }
 
 .team-list-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
@@ -967,17 +1034,17 @@ header {
   .team-list-item {
     width: calc((100% - 30px) / 2);
   }
-  .team-list-item:nth-child(2n+1) {
+  .team-list-item:nth-child(2n + 1) {
     margin-right: 30px;
   }
-  .team-list-item:nth-child(-n+2) {
+  .team-list-item:nth-child(-n + 2) {
     margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 768px) and (min-width: 1200px) {
   .team-list-item {
-    width: calc((100% - 3*30px)/4);
+    width: calc((100% - 3 * 30px) / 4);
   }
   .team-list-item:not(:last-child) {
     margin-right: 30px;
@@ -1080,10 +1147,10 @@ header {
 }
 
 @media screen and (max-width: 767px) {
-  .clients-item:nth-child(2n+1) {
+  .clients-item:nth-child(2n + 1) {
     margin-right: 30px;
   }
-  .clients-item:nth-child(-n+4) {
+  .clients-item:nth-child(-n + 4) {
     margin-bottom: 30px;
   }
 }
@@ -1092,7 +1159,7 @@ header {
   .clients-item:not(:nth-child(3n)) {
     margin-right: 30px;
   }
-  .clients-item:nth-child(-n+3) {
+  .clients-item:nth-child(-n + 3) {
     margin-bottom: 30px;
   }
 }
@@ -1120,7 +1187,8 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid #2196f3;
   color: #2196f3;
 }
@@ -1577,7 +1645,8 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover, .social-link:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: #2196f3;
 }
 
@@ -1727,10 +1796,10 @@ header {
   .gallery-list-item {
     width: 354px;
   }
-  .gallery-list-item:nth-child(-n+8) {
+  .gallery-list-item:nth-child(-n + 8) {
     margin-bottom: 30px;
   }
-  .gallery-list-item:nth-child(2n+1) {
+  .gallery-list-item:nth-child(2n + 1) {
     margin-right: 30px;
   }
 }
@@ -1756,8 +1825,10 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallery-list-link:hover, .gallery-list-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.gallery-list-link:hover,
+.gallery-list-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .gallery-backdrop {
@@ -1862,8 +1933,9 @@ header {
   margin-right: auto;
 }
 
-.button-modal-submit:focus, .button-modal-submit:hover {
-  background: #2196F3;
+.button-modal-submit:focus,
+.button-modal-submit:hover {
+  background: #2196f3;
 }
 
 .filter-button {
@@ -1884,10 +1956,12 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-button:hover, .filter-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: #ffffff;
   background-color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .social-list {
@@ -1910,7 +1984,8 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-link:hover, .team-social-link:focus {
+.team-social-link:hover,
+.team-social-link:focus {
   color: #ffffff;
 }
 

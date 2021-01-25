@@ -1,54 +1,53 @@
-  .social-list {
-    display: flex;
-    justify-content: center;
-    // margin: auto;
-  }
-  
-  .social-item{
-      margin-right: 10px;
-  }
+.social-list {
+  display: flex;
+  justify-content: center;
+  // margin: auto;
+}
 
-  .social-item:last-child{
-    margin-right: 0px;
+.social-item {
+  margin-right: 10px;
+}
+
+.social-item:last-child {
+  margin-right: 0px;
 }
 //   .social-link {
 //     @extend %social-link;
-    // display: flex;
-    // width: 44px;
-    // height: 44px;
-   
-    // border-radius: 50%;
-    // align-items: center;
-    // justify-content: center;
+// display: flex;
+// width: 44px;
+// height: 44px;
 
-  
-    // &:hover,
-    // &:focus {
-    // background-color: $accent-color;
+// border-radius: 50%;
+// align-items: center;
+// justify-content: center;
+
+// &:hover,
+// &:focus {
+// background-color: $accent-color;
 //   }
 //   }
 
-  .team-social-link {
-    @extend %social-link;
-    color: $icon-color;
-  
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
+.team-social-link {
+  @extend %social-link;
+  color: $icon-color;
+
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
     color: $accent-color-2;
   }
-  }
-    
-  .footer-social-link{
-    @extend %social-link;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-    
+}
+
+.footer-social-link {
+  @extend %social-link;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 //   .social-icon {
 //       @extend %social-icon;
 //     display: block;
@@ -56,13 +55,12 @@
 //     height: 20px;
 //    }
 
-  .team-social-icon {
-    @extend %social-icon;
-    fill: currentColor;
-  }
+.team-social-icon {
+  @extend %social-icon;
+  fill: currentColor;
+}
 
-  .footer-social-icon{
-    @extend %social-icon;
-    fill: $address-color;
-  }
-  
+.footer-social-icon {
+  @extend %social-icon;
+  fill: $address-color;
+}
